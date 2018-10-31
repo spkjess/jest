@@ -119,7 +119,7 @@ test('implementation created by jest.genMockFromModule', () => {
 });
 ```
 
-### `jest.mock(moduleName, factory, options)`
+### `jest.mock(moduleName, factory?, options?)`
 
 Mocks a module with an auto-mocked version when it is being required. `factory` and `options` are optional. For example:
 
@@ -267,7 +267,7 @@ Returns the `jest` object for chaining.
 
 ## Mock functions
 
-### `jest.fn(implementation)`
+### `jest.fn(implementation?)`
 
 Returns a new, unused [mock function](MockFunctionAPI.md). Optionally takes a mock implementation.
 
